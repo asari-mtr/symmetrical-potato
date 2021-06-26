@@ -1,2 +1,18 @@
 {
+  "files.associations": {
+    "*.ts": "typescript"
+  },
+  // 拡張機能 code-runner
+  // code-runnerの表示をターミナルに変更
+  "code-runner.runInTerminal": true,
+  // code-runnerのコマンドをエディタ上での右クリックで表示しない
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  // code-runnerのコマンドをエクスプローラー上での右クリックで表示しない
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "ts-node"
+  },
+  // code-runner実行時にターミナルを一旦クリア
+  "code-runner.clearPreviousOutput": true,
 }
